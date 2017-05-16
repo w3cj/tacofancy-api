@@ -7,13 +7,13 @@ app.get('/', (req, res) => {
 
 app.use((req, res, next) => {
   res.status(404);
-  next(new Error('These are not the droids you are looking for.'))
+  next(new Error('🌮 These are not the layers are looking for. 🌮'))
 });
 
 app.use((error, req, res, next) => {
   res.status(res.statusCode || 500);
   res.json({
-    message: error.message || '🚫'
+    message: error.message || '🌮'
   });
 });
 
