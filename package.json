@@ -6,7 +6,6 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
-    "postinstall": "npm run generate",
     "generate": "node generateJSON.js"
   },
   "dependencies": {
