@@ -1,0 +1,16 @@
+{
+  "name": "tacofancy-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "w3cj <cj@null.computer>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "dotenv": "^4.0.0",
+    "fs-extra": "^3.0.1",
+    "marked": "^0.3.6"
+  }
+}
